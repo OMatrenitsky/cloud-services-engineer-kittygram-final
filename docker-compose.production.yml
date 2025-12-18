@@ -41,7 +41,7 @@ services:
       - /home/practicum/kittygram/static:/staticfiles/
       - /home/practicum/kittygram/media:/media/
     ports:
-      - 9000:80
+      - 80:80
 
 volumes:
   db_data:
